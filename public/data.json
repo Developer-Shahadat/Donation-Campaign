@@ -1,0 +1,112 @@
+{
+  "data": [
+    {
+      "img": "https://i.ibb.co/cJwqS2z/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg_color": "#0052FF",
+      "card_bg_color": "#B2CBFF",
+      "description": "A comprehensive guide to living a healthy life, including diet tips, exercise routines, and mental well-being practices.",
+      "price": 290.0
+    },
+    {
+      "img": "https://i.ibb.co/tPp9VLj/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg_color": "#FF444A",
+      "card_bg_color": "#FDA4AF",
+      "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 290.0
+    },
+    {
+      "img": "https://i.ibb.co/k42xDq2/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg_color": "#E84C3D",
+      "card_bg_color": "#F5F5F5",
+      "description": "A stylish and comfortable cotton T-shirt for any occasion, available in various sizes and colors.",
+      "price": 290.0
+    },
+    {
+      "img": "https://i.ibb.co/wRPxGWg/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg_color": "#79C23F",
+      "card_bg_color": "#86EFAC",
+      "description": "A gourmet meal kit that includes fresh ingredients and a step-by-step recipe to prepare a delicious restaurant-quality meal at home.",
+      "price": 290.0
+    },
+    {
+      "img": "https://i.ibb.co/wRPxGWg/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg_color": "#79C23F",
+      "card_bg_color": "#86EFAC",
+      "description": "A gourmet meal kit that includes fresh ingredients and a step-by-step recipe to prepare a delicious restaurant-quality meal at home.",
+      "price": 290.0
+    },
+    {
+      "img": "https://i.ibb.co/k42xDq2/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg_color": "#E84C3D",
+      "card_bg_color": "#F5F5F5",
+      "description": "A stylish and comfortable cotton T-shirt for any occasion, available in various sizes and colors.",
+      "price": 290.0
+    },
+    {
+      "img": "https://i.ibb.co/tPp9VLj/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg_color": "#FF444A",
+      "card_bg_color": "#FDA4AF",
+      "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 290.0
+    },
+    {
+      "img": "https://i.ibb.co/cJwqS2z/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg_color": "#0052FF",
+      "card_bg_color": "#B2CBFF",
+      "description": "A comprehensive guide to living a healthy life, including diet tips, exercise routines, and mental well-being practices.",
+      "price": 290.0
+    },
+    {
+      "img": "https://i.ibb.co/cJwqS2z/Health.png",
+      "title": "Clean water for children",
+      "category": "Health",
+      "category_bg_color": "#0052FF",
+      "card_bg_color": "#B2CBFF",
+      "description": "A comprehensive guide to living a healthy life, including diet tips, exercise routines, and mental well-being practices.",
+      "price": 290.0
+    },
+    {
+      "img": "https://i.ibb.co/tPp9VLj/Education.png",
+      "title": "Good education",
+      "category": "Education",
+      "category_bg_color": "#FF444A",
+      "card_bg_color": "#FDA4AF",
+      "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price": 290.0
+    },
+    {
+      "img": "https://i.ibb.co/k42xDq2/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg_color": "#E84C3D",
+      "card_bg_color": "#F5F5F5",
+      "description": "A stylish and comfortable cotton T-shirt for any occasion, available in various sizes and colors.",
+      "price": 290.0
+    },
+    {
+      "img": "https://i.ibb.co/wRPxGWg/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "category_bg_color": "#79C23F",
+      "card_bg_color": "#86EFAC",
+      "description": "A gourmet meal kit that includes fresh ingredients and a step-by-step recipe to prepare a delicious restaurant-quality meal at home.",
+      "price": 290.0
+    }
+  ]
+}

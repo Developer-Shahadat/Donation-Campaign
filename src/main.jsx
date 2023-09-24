@@ -5,15 +5,33 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
-import Header from './components/Header/Header';
+
+import Home from './components/Home/Home';
+import Layout from './components/Layout/Layout';
+import Donation from './components/Donation/Donation';
+import Statistics from './components/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Header></Header>,
-    children : [{
+    element: <Layout></Layout>,
+    children : [
+      {
+      path:"/",
+      loader : () => fetch('/data.json'),
+      element : <Home></Home>,
       
-    }]
+    },
+    {
+      path:"/donation",
+      element : <Donation></Donation>
+    },
+    {
+      path:"/statistics",
+      element : <Statistics></Statistics>
+    }
+    
+  ]
   },
 ]);
 

@@ -5,7 +5,6 @@ import DataShow from "../CardDataShow/DataShow";
 
 const Home = () => {
     const home = useLoaderData()
-    console.log(home);
     return (
         <div className='container mx-auto'>
             <Banner></Banner>

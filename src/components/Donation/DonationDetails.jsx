@@ -1,49 +1,52 @@
 
-import { useLoaderData, useParams } from "react-router-dom";
 
-import Swal from 'sweetalert2';
+// import { useLoaderData } from "react-router-dom";
+// import { useParams } from "react-router-dom";
+
+import swal from 'sweetalert';
 
 
-const DonationDetails = () => {
-    const details = useLoaderData();
-    const {id} = useParams();
-    const idInt = parseInt(id);
-    const detailsAll = details.find(detail => detail.id === idInt);
-    console.log(detailsAll);
+
+const DonationDetails = ({details}) => {
+  const {id,img,title,category_bg_color,btn_bg_color,description,price} = details
+
 
  
     const handleDonateClick = () => {
-        Swal.fire({
-          title: 'Donation Confirmation',
-          text: `Are you sure you want to donate $${detailsAll.price}?`,
-          icon: 'question',
-          showCancelButton: true,
-          confirmButtonText: 'Yes, donate!',
-          cancelButtonText: 'Cancel',
-        })
-        .then((result) => {
-          if (result.isConfirmed) {
-            // Handle donation logic here
-            // You can perform the actual donation or redirect the user to a payment page
-            // For example: alert('Donation successful!');
-            Swal.fire('Donation successful!', '', 'success');
+        
+        const addedDonationArray = [];
+        const donationItem = JSON.parse(localStorage.getItem('Donation Item'));
+        if(!donationItem){
+          addedDonationArray.push(details)
+          localStorage.setItem('Donation Item',JSON.stringify(addedDonationArray))
+        }
+        else{
+          const isExits = donationItem.find((details) => details.id == id);
+          if(!isExits){
+            addedDonationArray.push( ...donationItem,details)
+            localStorage.setItem('Donation Item',JSON.stringify(addedDonationArray))
+            swal("Good job!", "Donate Successful", "success");
           }
-        });
+          else{
+            swal("Already Donated", "Donate Complete", "error");
+          }
+          
+        }
       };
     
         
     return (
         <div className="mt-10">
                   <div className="card card-compact w-1/2 bg-base-100 shadow-xl ml-96">
-                        <figure><img className="w-[80%]" src={detailsAll.img} /></figure>
-                        <div className="relative -mt-14 ml-20">
-                           <div className="w-[531px] p-1 bg-opacity-70 bg-black">
-                           <button onClick={handleDonateClick} className="btn font-bold" style={{backgroundColor: detailsAll.btn_bg_color,color:detailsAll.category_bg_color}}>Donate  ${detailsAll.price}</button>
+                        <figure><img className="w-[80%]" src={img} /></figure>
+                        <div className=" ">
+                           <div className="-mt-14 ml-[70px] absolute w-[545px] p-1 bg-opacity-70 bg-black">
+                           <button onClick={handleDonateClick} className="btn font-bold" style={{backgroundColor: btn_bg_color,color:category_bg_color}}>Donate  ${price}</button>
                            </div>
                         </div>
                         <div className="card-body">
-                            <h2 className="card-title text-center ml-5">{detailsAll.title}</h2>
-                            <p className="text-center">{detailsAll.description}</p>
+                            <h2 className="card-title text-center ml-5">{title}</h2>
+                            <p className="text-center">{description}</p>
                         </div>
                     </div>          
         </div>

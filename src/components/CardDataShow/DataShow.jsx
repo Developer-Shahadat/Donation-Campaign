@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
-
+import { Link } from 'react-router-dom';
 const DataShow = ({loader}) => {
-    const {img,title,category,category_bg_color,card_bg_color,btn_bg_color} = loader
+    const {id,img,title,category,category_bg_color,card_bg_color,btn_bg_color} = loader
     return (
+        <Link to={`/donation/${id}`}>
         <div className='mt-10'>
             
             <div className="card bg-base-100 shadow-xl rounded-lg">
@@ -14,6 +15,7 @@ const DataShow = ({loader}) => {
                 </div>
             </div>
         </div>
+         </Link>
     );
 };
 DataShow.propTypes ={

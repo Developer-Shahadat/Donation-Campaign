@@ -39,10 +39,10 @@ const DonationDetails = ({details}) => {
         
     return (
         <div className="mt-10">
-                  <div className="card card-compact w-1/2 bg-base-100 shadow-xl ml-96">
+                  <div className="card card-compact lg:w-1/2 bg-base-100 shadow-xl lg:ml-96 ">
                         <figure><img className="w-[80%]" src={img} /></figure>
                         <div className=" ">
-                           <div className="-mt-14 ml-[70px] absolute w-[545px] p-1 bg-opacity-70 bg-black">
+                           <div className="-mt-14 lg:ml-[70px] ml-[42px] absolute lg:w-[545px] w-[340px] p-1 bg-opacity-70 bg-black">
                            <button onClick={handleDonateClick} className="btn font-bold" style={{backgroundColor: btn_bg_color,color:category_bg_color}}>Donate  ${price}</button>
                            </div>
                         </div>

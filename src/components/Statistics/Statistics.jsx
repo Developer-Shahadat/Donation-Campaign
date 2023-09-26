@@ -1,6 +1,9 @@
 
 import { Chart } from "react-google-charts";
+import { useLoaderData } from "react-router-dom";
 const Statistics = () => {
+    const data = useLoaderData()
+    console.log(data);
     const pieOptions = {
        
         pieHole: 1.0,
@@ -29,15 +32,19 @@ const Statistics = () => {
         fontName: 'Roboto',
         fontSize: 20,
     }
+    
+    const myDonation = 4
+    
+    const totalDonation =12
+    const result = (totalDonation/myDonation)
     return (
         <div className="mx-4 lg:mx-4">
-           
             <Chart
                 chartType="PieChart"
                 data={[
                     ['Item', 'Numbers'],
-                    ['Your Donation', 5000],
-                    ['Total Donation', 20000],
+                    ['Your Donation', result],
+                    ['Total Donation', totalDonation],
                     
                 ]}
                 options={pieOptions}
@@ -49,5 +56,8 @@ const Statistics = () => {
         </div>
     );
 };
+
+
+
 
 export default Statistics;

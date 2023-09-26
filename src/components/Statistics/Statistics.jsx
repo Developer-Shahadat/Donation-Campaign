@@ -1,9 +1,14 @@
 
+import { useEffect, useState } from "react";
 import { Chart } from "react-google-charts";
 import { useLoaderData } from "react-router-dom";
 const Statistics = () => {
     const data = useLoaderData()
     console.log(data);
+    const [item,setItem] = useState()
+
+    
+
     const pieOptions = {
        
         pieHole: 1.0,
@@ -34,8 +39,7 @@ const Statistics = () => {
     }
     
     const myDonation = 4
-    
-    const totalDonation =12
+    const totalDonation = data.length
     const result = (totalDonation/myDonation)
     return (
         <div className="mx-4 lg:mx-4">

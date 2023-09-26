@@ -1,5 +1,6 @@
 
 import swal from 'sweetalert';
+import Statistics from '../Statistics/Statistics';
 const DonationDetails = ({details}) => {
   const {id,img,title,category_bg_color,btn_bg_color,description,price} = details
     const handleDonateClick = () => {
@@ -39,7 +40,10 @@ const DonationDetails = ({details}) => {
                             <h2 className="card-title text-center ml-6 md:ml-16 lg:ml-14">{title}</h2>
                             <p className="text-justify ml-6 md:ml-16 lg:ml-14">{description}</p>
                         </div>
-                    </div>        
+                    </div>
+                    {
+                      <Statistics handleDonateClick={handleDonateClick}></Statistics>
+                    }        
         </div>
     );
 };

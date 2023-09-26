@@ -15,7 +15,7 @@ const Statistics = () => {
             
         ],
         legend: {
-            position: 'right',
+            position: 'bottom',
             alignment: 'center',
             textStyle: {
                 color: '233238',
@@ -30,7 +30,7 @@ const Statistics = () => {
         fontSize: 20,
     }
     return (
-        <div>
+        <div className="mx-4 lg:mx-4">
            
             <Chart
                 chartType="PieChart"

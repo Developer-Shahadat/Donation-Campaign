@@ -34,7 +34,7 @@ const Donations = () => {
                             donation.map(details => <Donation details={details}></Donation>)
                         }
                         </div> */}
-                    <div className=" container mx-auto grid grid-cols-2 gap-10">
+                    <div className=" container mx-auto grid lg:grid-cols-2 gap-10">
                     {
                         
                     isShow? donation.map(details => <Donation details={details}></Donation>) :

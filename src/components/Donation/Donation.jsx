@@ -1,6 +1,6 @@
 const Donation = ({ details }) => {
   return (
-    <div >
+    <div className="md:mx-4 mx-4 lg:mx-0">
       <div className="card card-side bg-base-100 shadow-xl">
         <figure>
           <img

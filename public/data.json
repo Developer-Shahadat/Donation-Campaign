@@ -8,7 +8,7 @@
     "btn_bg_color": "#60A5FA",
     "card_bg_color": "#93C5FD",
     "description": "A comprehensive guide to living a healthy life, including diet tips, exercise routines, and mental well-being practices.",
-    "price": 290.00
+    "price": 290
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "btn_bg_color": "#FDA4AF",
     "card_bg_color": "#FFE4E6",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have.",
-    "price": 290.00
+    "price": 290
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "btn_bg_color": "#6EE7B7",
     "card_bg_color": "#A7F3D0",
     "description": "A stylish and comfortable cotton T-shirt for any occasion, available in various sizes and colors.",
-    "price": 290.00
+    "price": 290
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "btn_bg_color": "#FFEDD5",
     "card_bg_color": "#FFF7ED",
     "description": "A gourmet meal kit that includes fresh ingredients and a step-by-step recipe to prepare a delicious restaurant-quality meal at home.",
-    "price": 290.00
+    "price": 290
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "btn_bg_color": "#FFEDD5",
     "card_bg_color": "#FFF7ED",
     "description": "A gourmet meal kit that includes fresh ingredients and a step-by-step recipe to prepare a delicious restaurant-quality meal at home.",
-    "price": 290.00
+    "price": 290
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "btn_bg_color": "#6EE7B7",
     "card_bg_color": "#A7F3D0",
     "description": "A stylish and comfortable cotton T-shirt for any occasion, available in various sizes and colors.",
-    "price": 290.00
+    "price": 290
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "btn_bg_color": "#FDA4AF",
     "card_bg_color": "#FFE4E6",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have.",
-    "price": 290.00
+    "price": 290
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "btn_bg_color": "#60A5FA",
     "card_bg_color": "#93C5FD",
     "description": "A comprehensive guide to living a healthy life, including diet tips, exercise routines, and mental well-being practices.",
-    "price": 290.00
+    "price": 290
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "btn_bg_color": "#60A5FA",
     "card_bg_color": "#93C5FD",
     "description": "A comprehensive guide to living a healthy life, including diet tips, exercise routines, and mental well-being practices.",
-    "price": 290.00
+    "price": 290
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "btn_bg_color": "#FDA4AF",
     "card_bg_color": "#FFE4E6",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have .",
-    "price": 290.00
+    "price": 290
   },
   {
     "id": 11,
@@ -118,7 +118,7 @@
     "btn_bg_color": "#6EE7B7",
     "card_bg_color": "#A7F3D0",
     "description": "A stylish and comfortable cotton T-shirt for any occasion, available in various sizes and colors.",
-    "price": 290.00
+    "price": 290
   },
   {
     "id": 12,
@@ -129,6 +129,6 @@
     "btn_bg_color": "#FFEDD5",
     "card_bg_color": "#FFF7ED",
     "description": "A gourmet meal kit that includes fresh ingredients and a step-by-step recipe to prepare a delicious restaurant-quality meal at home.",
-    "price": 290.00
+    "price": 290
   }
 ]

@@ -19,13 +19,15 @@ const DonationDetails = ({details}) => {
         if(!donationItem){
           addedDonationArray.push(details)
           localStorage.setItem('Donation Item',JSON.stringify(addedDonationArray))
+          swal("Good job!", "Donate Successful", "success");
         }
         else{
           const isExits = donationItem.find((details) => details.id == id);
+
           if(!isExits){
             addedDonationArray.push( ...donationItem,details)
             localStorage.setItem('Donation Item',JSON.stringify(addedDonationArray))
-            swal("Good job!", "Donate Successful", "success");
+              swal("Good job!", "Donate Successful", "success");
           }
           else{
             swal("Already Donated", "Donate Complete", "error");
